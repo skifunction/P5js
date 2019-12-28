@@ -20,7 +20,7 @@ void draw() {
   }
 
   // If a particle doesn't move at all we're done
-  // This is an exit condition not implemented in the video
+
   if (count == 0) {
     noLoop();
     println("snowflake completed");
